@@ -1,0 +1,9 @@
+Building Zencoin
+
+See doc/readme-qt.rst for instructions on building Zencoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Zencoin.
+
+See doc/build-*.txt for instructions on building zencoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Zencoin.

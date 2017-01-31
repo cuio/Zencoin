@@ -1,0 +1,34 @@
+src/*.exe
+src/zencoin
+src/zencoind
+src/test_zencoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.zencoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+zencoin-qt
+Zencoin-Qt.app
+
+# Unit-tests
+Makefile.test
+zencoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
